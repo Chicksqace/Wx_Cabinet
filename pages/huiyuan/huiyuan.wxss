@@ -1,0 +1,121 @@
+/* pages/huiyuan/huiyuan.wxss */
+
+/* pages/my/my.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  padding-top: 30rpx;
+  box-sizing: border-box;
+} 
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 168rpx;
+  height: 168rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #444;
+  font-size:36rpx;
+  font-weight: 600;
+}
+
+.beijing_kuang{
+  background: #3e3e3e
+}
+
+.beijing_kuang .puton{
+  width: 180rpx;
+  height: 55rpx;
+  background: #fcf0ac;
+  text-align: center;
+  border-radius: 100rpx;
+  line-height:50rpx;
+  color: #3e3e3e;
+}
+.beijing_kuang .jifen{
+  color: #fcf0ac;
+  padding: 10px 0;
+}
+
+
+.nimen_Ge{
+  height: 65rpx;
+  line-height: 65rpx;
+  padding: 20rpx 10rpx;
+  border-bottom: solid 13rpx #f5f5f5;
+}
+
+.nimen_Ge navigator{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content : center;
+  float: left;
+  position: relative; 
+}
+
+.nimen_Ge navigator:last-child:after{
+  position: absolute;
+  width: 1px;
+  height: 45rpx;
+  background: #ccc;
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.nimen_Ge navigator image{
+  width: 45rpx;
+  height: 45rpx;
+  margin-right: 5rpx; 
+}
+
+/*  */
+
+.nimen_ge_changc{
+  padding: 20rpx;
+}
+
+.nimen_ge_changc .bt{
+  padding-bottom: 20rpx;
+  font-size: 38rpx;
+}
+.nimen_ge_changc navigator{
+  width: 345rpx; 
+  float: left;
+  margin-bottom: 20rpx;
+  display: block;
+
+}
+.nimen_ge_changc navigator:nth-child(2n){ 
+  float: right;
+}
+
+.nimen_ge_changc navigator image{
+  width:345rpx; 
+  height: 345rpx; 
+}
+.nimen_ge_changc navigator .shangt{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nimen_ge_changc navigator text{
+  color: #f3ce00;
+}

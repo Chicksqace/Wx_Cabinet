@@ -1,0 +1,143 @@
+/**index.wxss**/
+.banner_shouye{
+  height: 400rpx;
+  width: 100%
+}
+
+.banner_shouye image{
+  height: 400rpx;
+  width: 100%
+}
+
+
+.chaid_kuang{
+  overflow: hidden;
+  padding: 30rpx 10rpx;
+}
+.chaid_kuang .ul{
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+
+.chaid_kuang .ul image{
+  width: 98rpx;
+  height: 98rpx;
+  display: block;
+  margin: auto;
+  margin-bottom: 10rpx;
+}
+.chaid_kuang .ul text{
+  font-size: 30rpx;
+  color: #444;
+}
+
+.baixley{
+  padding: 20rpx;
+}
+
+.baixley image{
+  width: 100%;
+  height: 109rpx
+}
+
+/*自定义底部导航  */
+.dibu_daohangk{
+  height: 98rpx;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow:0 0 5rpx #eee;
+  line-height: 28rpx;
+  z-index: 99;
+}
+.dibu_daohangk .beij_k{
+  background: #fff;
+  height: 98rpx; 
+  z-index:4; 
+
+}
+
+.dibu_daohangk .dibu{
+  width: 30%;
+  text-align: center;
+  float: left;
+  height: 98rpx;
+}
+.dibu_daohangk .dibu:nth-child(2){
+  width: 40%;
+  position: relative;
+  
+}
+.dibu_daohangk .dibu:nth-child(2)>view.zhongj{
+  width: 160rpx;
+  height:160rpx;
+  background: #fae54d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* box-shadow:0 0 5rpx #aaaaaa; */
+  border-radius: 50%; 
+  border: solid 12rpx #fff;
+  line-height: 35rpx;
+  z-index: 3; 
+}
+.dibu_daohangk .fud{
+  width: 160rpx;
+  height:160rpx; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow:0 0 5rpx #dfdfdf;
+  border-radius: 50%;
+  border: solid 12rpx #fff;
+  z-index: -1; 
+} 
+
+.dibu_daohangk .dibu image{
+  width: 55rpx;
+  display: block;
+  margin: auto;
+  height: 55rpx;
+  padding-top: 5rpx
+}
+.dibu_daohangk .dibu:nth-child(2)>view.zhongj image{
+  padding-top:25rpx;
+   width: 65rpx; 
+  height: 65rpx;
+}
+.dibu_daohangk .dibu text{
+  text-align: center;
+  font-size: 22rpx; 
+  color: #414141
+}
+/*  */
+
+
+.fudong_dd{
+  position: fixed;
+  right: 20rpx;
+  bottom:160rpx;
+  z-index: 99;
+}
+.fudong_dd>view{
+  width: 75rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  box-shadow:0 0 10rpx #c7c7c7;
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content : center;
+  align-items: center;
+}
+.fudong_dd>view image{
+  width: 50rpx;
+  height: 50rpx;
+}

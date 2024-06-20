@@ -1,0 +1,11 @@
+<!--pages/huiyuan_huiz/huiyuan_huiz.wxml-->
+<!-- <text>pages/huiyuan_huiz/huiyuan_huiz.wxml</text> -->
+<view class="huiyuanjif">
+  <view class="bt">一、入会资格</view>
+  <text>注册即可成为钻石小鸟会员，获得电子会员卡一张。会员可参加互动活动或购物获取会员积分，并根据会员积分升级会员级别。</text>
+  <view class="bt">二、专享折扣 </view>
+  <text>
+      会员卡折扣规则： 
+    1.会员折扣适用于第二次购物消费；裸钻折扣适用于单颗0.30ct（含0.30ct）以上的钻石或钻饰以及项链、戒托；饰品折扣适用于其它产品。
+    2.会员折扣仅适用于购买正价产品，不适用于以小换大业务、特价产品、全球钻等指定产品。除特殊活动说明外，会员折扣不与其它优惠同时享受。</text>
+</view>

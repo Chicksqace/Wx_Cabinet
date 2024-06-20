@@ -1,0 +1,31 @@
+<!--pages/dd_Xq/dd_Xq.wxml-->
+<view bindtap="toOrderDetail" class="orderDetails">  
+    <view class="orderListDetails">
+        <view class="productImg">
+            <image  mode='aspectFill'  src="../../images/toux.jpg"></image>
+        </view>
+        <view class="productInfo">
+            <view class="productTitle">Canmake缤纷糖果保湿唇彩 唇蜜 01经典粉色</view>
+            <text class="productPrice">￥132.00</text>
+            <text class="productQuantity">x1</text>
+        </view>
+    </view>
+</view> 
+<view class="ding_xq">
+  <view class="bt">价格明细</view>
+  <view class="kuang">商品总价 <text>￥120.00</text></view>
+  <view class="kuang">运费 <text>￥2.00</text></view>
+  <view class="kuang">优惠 <text>￥0.00</text></view>
+  <view class="kuang">优惠 <text>￥0.00</text></view>
+  <view class="kuang">订单总价 <text>￥122.00</text></view>
+</view>
+<view class="ding_xq">
+  <view class="bt">订单信息</view> 
+  <view class="xinxi">订单编号：<text>D2976347</text></view>
+  <view class="xinxi">创建时间：<text>2019-09-09  20:43</text></view>
+  <view class="xinxi">付款时间：<text>2019-09-09  20:43</text></view>
+  <view class="xinxi">发货时间：<text>2019-09-09  20:43</text></view> 
+</view>
+<view class="dibu_ann">
+  <button>联系卖家</button> 
+</view>

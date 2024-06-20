@@ -1,0 +1,164 @@
+/* pages/youhuiq/youhuiq.wxss */
+page{
+  background: #f5f5f5;
+}
+.topnav{
+  position:fixed;
+  top:0;
+  left:0;
+  height:80rpx;
+  background:#fff;
+  text-align: center;
+  z-index:9;
+  width:100%;
+}
+.topnav text{
+  color:#444;
+  font-size:26rpx;
+  display: inline-block;
+  margin:0 40rpx;
+  border-bottom:4rpx #fff solid;
+  padding:20rpx 0 10rpx;
+}
+.topnav text.active{
+  color:#FE5723;
+  border-bottom:2rpx #FE5723 solid;
+} 
+
+
+/*  */
+.youhuiq_k{
+  padding: 50rpx 0 0 0;
+}
+.coupon-item{
+  width: 100%
+} 
+.style-six{
+  width: auto;
+  height: 200rpx;
+  position: relative;
+  margin: 20rpx 10rpx;  
+justify-content:center;
+background-color: #F7DBCD;
+color: #FE5723;
+}
+ 
+
+.style-six .info-box{
+  height: 200rpx;
+  line-height: 20rpx;
+  padding:0 3% 0 10%;
+  position:relative;
+  float: left;
+} 
+.coupon-item .nick {
+padding:.66% 0;
+color:#E5004F;
+font-size:28rpx;
+}
+
+.coupon-item .coupon-money {
+width:100%; 
+line-height: 0rpx;
+} 
+.coupon-item .coupon-money .of{
+font-size: 32rpx;
+} 
+.coupon-item .coupon-money text {
+  font-size:56rpx;
+}
+
+.coupon-item .coupon-money .lay:last-child {
+flex:1;
+padding:0;
+font-size:30rpx;
+line-height:1.22rem;
+}
+
+.coupon-item .coupon-money .lay .demand{
+margin-top:20rpx;
+color: #f0f0f0;
+}
+
+.style-six .get-btn{
+display:-webkit-box;
+display:-webkit-flex;
+display:flex;
+align-items:center;
+justify-content:center;
+height:200rpx;
+text-align:center;
+color:#fff;
+font-size:1.5rem;
+line-height:1.35;
+width: 28%;
+background-color: #fff;
+position:relative;
+}
+ 
+.youhuiq_k .yejicsq{
+padding: 20rpx;
+position: relative;
+ }
+.youhuiq_k .yejicsq .qix{
+  padding-top: 20rpx;
+  color: #444;
+  padding-bottom: 10rpx;
+}
+
+.youhuiq_k .yejicsq .qian{
+  font-size: 55rpx;
+}
+.youhuiq_k .yejicsq .qian text{
+  font-size: 28rpx;
+  color: 3
+}
+.youhuiq_k .yejicsq button{
+  width:180rpx;
+  height: 65rpx;
+  font-size: 28rpx;
+  position: absolute;
+  top: 20rpx; 
+  line-height: 65rpx;
+  padding: 0;
+  right: 40rpx;
+  bottom: 0;
+  margin: auto;
+  background: #FE5723;
+  color: #fff;
+}
+/* 齿轮 */
+
+.style-six:before {
+bottom:-.12rem;
+-webkit-transform:rotate(180deg);
+}
+
+.style-six:after,.style-six:before {
+content:"";
+height:2rpx;
+position:absolute;
+left:0;
+right:0;
+display:block;
+z-index:9;
+background-image:linear-gradient(-45deg,#f5f5f5 25%,transparent 25%,transparent),linear-gradient(-135deg,#f5f5f5 25%,transparent 25%,transparent),linear-gradient(-45deg,transparent 75%,#f5f5f5 75%),linear-gradient(-135deg,transparent 75%,#f5f5f5 75%);
+background-size:1rem 1rem;
+background-repeat:repeat-x,repeat-x;
+}
+
+.style-six:after {
+top:-.12rem;
+}
+.style-six:after,.style-six:before {
+content:"";
+height:.5rem;
+position:absolute;
+left:0;
+right:0;
+display:block;
+z-index:9;
+background-image:linear-gradient(-45deg,#f5f5f5 25%,transparent 25%,transparent),linear-gradient(-135deg,#f5f5f5 25%,transparent 25%,transparent),linear-gradient(-45deg,transparent 75%,#f5f5f5 75%),linear-gradient(-135deg,transparent 75%,#f5f5f5 75%);
+background-size:1rem 1rem; 
+background-repeat:repeat-x,repeat-x;
+} 

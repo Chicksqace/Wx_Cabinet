@@ -1,0 +1,40 @@
+<!--pages/guz/guz.wxml-->
+<!-- <text>pages/guz/guz.wxml</text> -->
+<view class="nimen_shaom" bindtap='getScancode' >
+  <view class="erweim"></view>
+  <input placeholder="扫码获得型号" value="{{result}}"></input>
+</view>
+<view class="nimensc_se">
+  <view class="biaot">问题类型</view>
+  <view class="comment-btn">
+    <button wx:for="{{riderCommentList}}" wx:for-item="item" wx:key="item.index"  
+        bindtap="checkboxChange" 
+        data-value="{{item.value}}" 
+        data-index="{{index}}"  
+        checked="{{item.selected}}"
+        class="btn {{item.selected ? 'btn-selected' : ''}}" >
+        {{item.title}}
+    </button>
+  </view>
+  <view class="biaodan">
+    <textarea placeholder="问题补充……"></textarea>
+  </view>
+</view> 
+<view class="waikuang_shangc"> 
+  <view class="question-images clearFloat">
+    <block wx:for="{{images}}" wx:key="*this">
+      <view class="q-image-wrap">
+        <!-- 图片缩略图  -->
+        <image class="q-image" src="{{item}}" mode="aspectFill" data-idx="{{index}}" bindtap="handleImagePreview"></image>
+        <!-- 移除图片的按钮  -->
+        <view class="q-image-remover" data-idx="{{index}}" bindtap="removeImage">
+          <icon class='iconfont icon-guanbi'></icon>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class='uploadImgBtn' bindtap="chooseImage" wx:if="{{images.length < 3}}">
+    <icon class='coior_Se'></icon>
+  </view>  
+</view>
+<button class="tijiao">提交</button>

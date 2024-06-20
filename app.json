@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/huiyuan/huiyuan",
+    "pages/huiyuan_huiz/huiyuan_huiz",
+    "pages/huiyuan_mx/huiyuan_mx",
+    "pages/guz/guz",
+    "pages/youhuiq/youhuiq",
+    "pages/dd/dd",
+    "pages/dd_Xq/dd_Xq",
+    "pages/map/map",
+    "pages/my_fank/my_fank",
+    "pages/gywm/gywm",
+    "pages/gouwuc/gouwuc"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "百姓乐园",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

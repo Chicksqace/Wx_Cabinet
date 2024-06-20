@@ -1,0 +1,23 @@
+<!--logs.wxml-->
+<!-- <view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view> -->
+<view class="guanyvwom">
+  <image class="logo" src="../../images/toux.jpg"></image>
+  <view class="banb">苗谷工作室</view>  
+</view>
+<view class="biaodan_Dl">
+  <input class="biand" placeholder="请输入手机号码"></input>
+  <view class="yanzk">
+    <input class="biand" placeholder="请输入验证码"></input>  
+    <button class="huoqvyanzm" disabled='{{disabled}}' bindtap="goGetCode">{{code}}</button> 
+
+  </view>
+  <button class="dl">登录</button>
+</view>
+<view class="biaot_disanf">
+  <view class="bt">快速登录</view>
+  <image src="../../images/weix.png"></image>
+</view>

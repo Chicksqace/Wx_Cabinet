@@ -1,0 +1,12 @@
+<!--pages/map/map.wxml--> 
+<map class="ditu_kuang" id="map"
+latitude="{{latitude}}"
+longitude="{{longitude}}"
+ scale="14" 
+ controls="{{controls}}" 
+ bindcontroltap="controltap"
+  markers="{{markers}}"
+   bindmarkertap="markertap" 
+   polyline="{{polyline}}" 
+   bindregionchange="regionchange" show-location >
+   </map>

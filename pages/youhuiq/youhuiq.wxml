@@ -1,0 +1,25 @@
+<!--pages/youhuiq/youhuiq.wxml-->
+<!-- <text>pages/youhuiq/youhuiq.wxml</text> -->
+<view class="topnav" hidden='{{hiddenTopNav}}'>
+  <block wx:for="{{topNavArray}}" wx:key='topnav'>
+    <text class="{{index==navActive?'active':''}}" bindtap='goToFloor' data-floor='f{{index}}' data-index='{{index}}'>{{item}}</text>
+  </block>
+</view> 
+<view class="youhuiq_k">
+  <view class="coupon-item"> 
+    <view class="style-six">
+      <view class="yejicsq">
+        <view class="qix">新人优惠券</view>
+        <view class="qian">￥230 <text>无时间限制</text></view>
+        <button>立即使用</button>
+      </view>
+    </view>
+    <view class="style-six">
+        <view class="yejicsq">
+          <view class="qix">新人优惠券</view>
+          <view class="qian">￥230 <text>无时间限制</text></view>
+          <button>立即使用</button>
+        </view>
+      </view>
+  </view>
+</view>

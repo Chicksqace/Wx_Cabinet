@@ -1,0 +1,42 @@
+<!--pages/huiyuan/huiyuan.wxml-->
+<view class="beijing_kuang"> 
+  <view class="container">
+    <view class="userinfo">
+      <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击/登陆 </button> -->
+      <block>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="../../images/toux.jpg" mode="cover"></image>
+        <!-- {{userInfo.nickName}} -->
+        <!-- <text class="userinfo-nickname">郁郁的黄瓜</text> -->
+      </block>
+    </view>
+    <!-- <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view> -->
+    <view class="puton">普通用户</view>
+    <view class="jifen">积分：0</view>
+  </view> 
+  <!--  -->
+</view>
+<view class="nimen_Ge">
+  <navigator url="../huiyuan_mx/huiyuan_mx">
+    <image src="../../images/jifen.png"></image>
+    <text>积分明细</text>
+  </navigator>
+  <navigator url="../huiyuan_huiz/huiyuan_huiz">
+    <image src="../../images/jifen1.png"></image>
+    <text>会员规则</text>
+  </navigator>
+</view>
+<!-- 积分商城列表 -->
+<view class="nimen_ge_changc">
+  <view class="bt">积分商城</view>
+  <view class="lieb_kuang">
+    <block wx:for="{{jifen_changc}}" wx:key="key">
+      <navigator url="{{item.langjie}}">
+        <image  mode='aspectFill' src="{{item.jftup}}"></image>
+        <view class="shangt">{{item.text_jf_bt}}</view>
+        <text>{{item.jifen_z}}</text>
+      </navigator>
+    </block>
+  </view>
+</view>

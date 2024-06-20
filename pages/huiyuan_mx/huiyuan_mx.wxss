@@ -1,0 +1,27 @@
+/* pages/huiyuan_mx/huiyuan_mx.wxss */
+.jifen_xiangq{
+  padding:20rpx;
+}
+
+.jifen_xiangq .kuang{
+  border-bottom: solid 1px #eee;
+  overflow: hidden;
+  line-height: 85rpx;
+}
+
+.jifen_xiangq .kuang .riq{
+  float: left;
+  font-size:26rpx;
+  width: 80%;
+}
+.jifen_xiangq .kuang .riq text{
+  padding-left: 40rpx;
+  font-size:26rpx;
+  color: #999;
+}
+.jifen_xiangq .kuang .youb{
+  width: 20%;
+  float: right;
+  color: #deb700;
+  text-align: right;
+}

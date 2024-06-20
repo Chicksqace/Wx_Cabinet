@@ -1,0 +1,139 @@
+/* pages/gouwuc/gouwuc.wxss */
+page{
+  background: #f6f6f6;
+}
+.gouwuc_kuang{
+  padding: 20rpx 0;
+}
+
+.gouwuc_kuang .list{
+  margin-bottom: 20rpx;
+  background: #fff;
+  padding: 20rpx;
+  overflow: hidden;
+}
+
+.gouwuc_kuang .list image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 5px;
+  float: left;
+}
+
+.gouwuc_kuang .list .right{
+  width: 480rpx;
+  float: right;
+}
+.gouwuc_kuang .list .right .bt{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.gouwuc_kuang .list .right .fuj{
+  color: #999;
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+
+}
+
+.gouwuc_kuang .list .right .nimen{
+  font-size:38rpx;
+  color: #ff0000;
+}
+
+
+.gouwuc_kuang .list .right .youkuang_se{
+  overflow: hidden;
+  float: right;
+}
+.gouwuc_kuang .list .right .youkuang_se text{
+  display: inline-block;
+  float: left; 
+  padding:0 20rpx;
+}
+
+.gouwuc_kuang .list .right .youkuang_se input{
+  width: 65rpx;
+  float: left;
+  text-align: center;
+  background: #eee;
+}
+
+
+
+/* 34 */
+/*主容器*/  
+.stepper {  
+    width: 80px;  
+    height: 26px;  
+    /*给主容器设一个边框*/  
+    border: 1px solid #ccc;  
+    border-radius: 3px;  
+    margin:0 auto;  
+    float: right;
+}  
+  
+/*加号和减号*/  
+.stepper text {  
+    width: 19px;  
+    line-height: 26px;  
+    text-align: center;  
+    float: left;  
+}  
+  
+/*数值*/  
+.stepper input {  
+  width: 40px;  
+  height: 26px;  
+  float: left;  
+  margin: 0 auto;  
+  text-align: center;  
+  font-size: 12px;  
+  /*给中间的input设置左右边框即可*/  
+  border-left: 1px solid #ccc;  
+  border-right: 1px solid #ccc;  
+  color: #444;
+}  
+  
+/*普通样式*/  
+.stepper .normal{  
+    color: black;  
+}  
+  
+/*禁用样式*/  
+.stepper .disabled{  
+    color: #ccc;  
+} 
+
+
+.gouwuc_dib{
+  background: #fff;
+  height: 98rpx;
+  line-height:98rpx;
+  padding-left:3%;
+  width: 97%;
+  position: fixed;
+  bottom:0;
+  left: 0;
+}
+.gouwuc_dib .qian{
+  float: left;
+}
+.gouwuc_dib text{
+  color: #ff0000;
+  font-size: 35rpx;
+  padding:0 20rpx;
+}
+
+.gouwuc_dib button{
+  float: right;
+  background: #ff0000;
+  border-radius: 0px;
+  width:250rpx!important;
+  height: 98rpx;
+  line-height:98rpx;
+  padding:0;
+  color: #fff;
+  font-weight: normal;
+}

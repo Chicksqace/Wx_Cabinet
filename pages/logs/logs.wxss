@@ -1,0 +1,96 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+
+/* 登录 */
+.guanyvwom{
+  padding: 35rpx;
+  padding-top: 60rpx;
+} 
+.guanyvwom image.logo{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+  margin: auto;
+  display: block
+}
+
+.guanyvwom .banb{
+text-align: center;
+padding: 20rpx; 
+font-size: 36rpx;
+font-weight: 600;
+}
+
+
+.biaodan_Dl{
+  padding: 40rpx;
+  padding-top: 0;
+}
+
+.biaodan_Dl input.biand{
+    border-bottom: solid #eee 1px;
+  padding: 30rpx 0rpx; 
+   border-radius: 8rpx;
+   margin-bottom: 10rpx; 
+}
+
+.biaodan_Dl .dl{
+  padding: 0;
+  height: 85rpx;
+  line-height: 85rpx;
+  width: 100%;
+  margin-top: 40rpx;
+  font-weight: 400;
+  font-size: 32rpx;
+}
+.biaodan_Dl .yanzk{
+  position: relative;
+}
+/* 获取验证码 */
+
+button.huoqvyanzm{  
+  width:250rpx!important;
+  position: absolute;
+  top:10rpx;
+  right: 0;
+  height:80rpx; 
+  padding: 10rpx 0;  
+  font-size: 32rpx;
+  color: #444;
+  background: #f8f8f8;
+  z-index: 99;
+  line-height: 60rpx;
+  font-weight: 400;
+} 
+button.huoqvyanzm[disabled]:not([type]){
+ background:#999; 
+  color: #fff;   
+}
+
+.biaot_disanf{
+  padding: 30rpx;
+  text-align: center;
+}
+
+.biaot_disanf{
+
+}
+
+.biaot_disanf .bt{
+  color: #999;
+  padding-bottom: 40rpx;
+}
+
+.biaot_disanf image{
+  width:80rpx;
+  height:80rpx;
+  border:solid 1px #eee;
+  border-radius: 50%; 
+  padding: 20rpx;
+}

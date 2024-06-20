@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<!-- banner -->
+<swiper class="banner_shouye" indicator-dots indicator-color="rgba(255,255,255,.4)" indicator-active-color="#fae54d" autoplay>
+  <block wx:for="{{img_banner}}" wx:key="key">
+    <swiper-item>
+      <image mode='aspectFill' src="{{item.url}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 菜单 -->
+<view class="chaid_kuang">
+  <block wx:for="{{dh_kuang}}" wx:key="key">
+    <navigator url="{{item.lujing}}" class="ul">
+      <image src="{{item.url}}"></image>
+      <text>{{item.dh_text}}</text>
+    </navigator>
+  </block>
+</view>
+<!-- 图 -->
+<view class="baixley">
+  <navigator url="#">
+    <image src="../../images/zid.png"></image>
+  </navigator>
+</view> 
+<!-- 自定义底部导航 --> 
+<view class="dibu_daohangk">
+  <view class="beij_k"> 
+      <navigator url="../index/index" class="dibu"  hover-class="none" open-type="redirect"> 
+        <view class="zhongj">
+          <image src="../../images/wd.png"></image>
+          <text>首页</text>
+        </view>
+      </navigator>
+      <navigator url="#" class="dibu"  bindtap='getScancode'  hover-class="none" open-type="redirect"> 
+        <view class="zhongj">
+          <image src="../../images/wd1.png"></image>
+          <text>扫码识机</text>
+        </view>
+      </navigator> 
+      <navigator url="../my/my" class="dibu"  hover-class="none" open-type="redirect"> 
+        <view class="zhongj">
+          <image src="../../images/wd2.png"></image>
+          <text>我的</text>
+        </view>
+      </navigator> 
+  </view>
+  <view class="fud"></view> 
+</view>
+
+<!-- 扫码的内容: -->
+<view wx:if="{{result !=''}}">
+  <view>{{result}}</view>
+</view> 
+
+<!-- 浮动 -->
+<view class="fudong_dd">
+  <view bindtap="gouwuc"><image src="/images/gouwuc.png"></image></view> 
+</view>

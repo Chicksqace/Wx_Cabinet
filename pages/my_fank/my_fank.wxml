@@ -1,0 +1,20 @@
+<!--pages/my_fank/my_fank.wxml--> 
+<!--pages/guz/guz.wxml-->
+<!-- <text>pages/guz/guz.wxml</text> -->
+<view class="nimensc_se">
+  <view class="biaot">问题类型</view>
+  <view class="comment-btn">
+    <button wx:for="{{riderCommentList}}" wx:for-item="item" wx:key="item.index"  
+        bindtap="checkboxChange" 
+        data-value="{{item.value}}" 
+        data-index="{{index}}"  
+        checked="{{item.selected}}"
+        class="btn {{item.selected ? 'btn-selected' : ''}}" >
+        {{item.title}}
+    </button>
+  </view>
+  <view class="biaodan">
+    <textarea placeholder="问题补充……"></textarea>
+  </view>
+</view>  
+<button class="tijiao">提交</button>

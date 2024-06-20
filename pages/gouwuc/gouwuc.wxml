@@ -1,0 +1,46 @@
+<!--pages/gouwuc/gouwuc.wxml--> 
+<view class="gouwuc_kuang">
+  <view class="list">
+    <image mode='aspectFill' src="../../images/jif_img.jpg"></image>
+    <view class="right">
+      <view class="bt">四川省农业产业化四川省农业产业化</view>
+      <view class="fuj">秀萝萝</view>
+      <view class="nimen">￥99</view>
+      <!-- <view class="youkuang_se">
+        <text>-</text>
+        <input value="1"></input>
+        <text>+</text>
+      </view> -->
+      <view class="stepper">  
+        <!-- 减号 -->  
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>  
+        <!-- 数值 -->  
+        <input type="number" bindchange="bindManual" value="{{num}}" />  
+        <!-- 加号 -->  
+        <text class="normal" bindtap="bindPlus">+</text>  
+      </view> 
+    </view>
+  </view>
+  <view class="list">
+    <image mode='aspectFill' src="../../images/jif_img1.jpg"></image>
+    <view class="right">
+      <view class="bt">美人专卖品</view>
+      <view class="fuj">秀萝萝</view>
+      <view class="nimen">￥99</view>
+      <view class="stepper">  
+        <!-- 减号 -->  
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>  
+        <!-- 数值 -->  
+        <input type="number" bindchange="bindManual" value="{{num}}" />  
+        <!-- 加号 -->  
+        <text class="normal" bindtap="bindPlus">+</text>  
+      </view> 
+    </view>
+  </view>
+</view>
+<!-- 购物车_底部 -->
+<view style="height: 98rpx;"></view>
+<view class="gouwuc_dib">
+    <view class="qian">一共<text>￥43.93</text></view>
+    <button>立即付款</button>
+</view>

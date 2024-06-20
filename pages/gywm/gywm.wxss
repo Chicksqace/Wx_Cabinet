@@ -1,0 +1,21 @@
+/* pages/gywm/gywm.wxss */
+
+.guanyvwom{
+  padding: 35rpx;
+  padding-top: 100rpx;
+}
+.guanyvwom image{
+  width: 100%;
+} 
+.guanyvwom image.logo{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+  margin: auto;
+  display: block
+}
+
+.guanyvwom .banb{
+text-align: center;
+padding: 20rpx; 
+}

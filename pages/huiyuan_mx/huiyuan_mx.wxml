@@ -1,0 +1,22 @@
+<!--pages/huiyuan_mx/huiyuan_mx.wxml-->
+<!-- <text>pages/huiyuan_mx/huiyuan_mx.wxml</text> -->
+<view class="jifen_xiangq">
+  <view class="kuang">
+    <view class="riq">2020-06-02<text>明细</text>
+    </view> 
+    <view class="youb">+23</view>
+  </view>
+  <view class="kuang">
+    <view class="riq">2020-06-02<text>明细</text>    
+    </view> 
+    <view class="youb">+23</view>
+  </view>
+  <view class="kuang">
+    <view class="riq">2020-06-02<text>明细</text> </view> 
+    <view class="youb">+23</view>
+  </view>
+  <view class="kuang">
+    <view class="riq">2020-06-02<text>明细</text></view> 
+    <view class="youb">+23</view>
+  </view>
+</view>

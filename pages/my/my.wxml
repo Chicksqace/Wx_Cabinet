@@ -1,0 +1,49 @@
+<!--pages/my/my.wxml-->
+<!-- <text>pages/my/my.wxml</text> -->
+<view class="container">
+  <view class="userinfo">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击/登陆 </button> -->
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="../../images/toux.jpg" mode="cover"></image>
+      <!-- {{userInfo.nickName}} -->
+      <text class="userinfo-nickname">郁郁的黄瓜</text>
+    </block>
+  </view>
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>
+<!-- 列表 --> 
+<view class="my_list">
+  <block wx:for="{{list_my}}" wx:key="key">
+    <navigator url="{{item.lianj}}" class="my_lb">
+      <image src="{{item.tupisn}}"></image>
+      <text>{{item.text_S}}</text>
+    </navigator>
+  </block> 
+</view>
+
+<!-- 自定义底部导航 --> 
+<view class="dibu_daohangk">
+  <view class="beij_k"> 
+      <navigator url="../index/index" class="dibu"  hover-class="none" open-type="redirect"> 
+        <view class="zhongj">
+          <image src="../../images/wd.png"></image>
+          <text>首页</text>
+        </view>
+      </navigator>
+      <navigator url="#" class="dibu"  bindtap='getScancode'  hover-class="none" open-type="redirect"> 
+        <view class="zhongj">
+          <image src="../../images/wd1.png"></image>
+          <text>扫码识机</text>
+        </view>
+      </navigator> 
+      <navigator url="../my/my" class="dibu"  hover-class="none" open-type="redirect"> 
+        <view class="zhongj">
+          <image src="../../images/wd2.png"></image>
+          <text>我的</text>
+        </view>
+      </navigator> 
+  </view>
+  <view class="fud"></view> 
+</view>
